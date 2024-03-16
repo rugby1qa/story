@@ -11,7 +11,7 @@ const story = {
         {
             text: "Stranded on a mysterious island, you're faced with a crucial decision. To your left, a dense jungle teems with unknown dangers and potential resources. To your right, a rocky cliff offers a vantage point to scan for signs of rescue. With each option comes uncertainty, and the weight of your fate hangs heavy in the air. Will you venture into the jungle, braving its mysteries, or will you remain by the cliffside, hoping for salvation? The choice is yours, and it will define your journey on this enigmatic island.",
             soundEffect: "file:///C:/Users/CJ/Downloads/Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
-            backgroundImage: "url('file:///C:/Users/CJ/Downloads/ygjh.avif')",
+            backgroundImage: "url('ygjh.avif')",
             options: [
                 { text: "Explore the jungle", nextScene: 10 },
                 { text: "stay and wait for rescue", nextScene: 2 }
