@@ -4,6 +4,7 @@ const story = {
         {
             text: "Amidst the vast expanse of the open sea lies a remote and enigmatic island, shrouded in mystery and teeming with untold secrets. Its rugged coastline, battered by the relentless waves, guards the entrance to a world untouched by time, where ancient forests echo with the whispers of forgotten tales and hidden treasures lie waiting to be discovered. For those bold enough to brave its perilous shores, the island offers both peril and promise, a journey into the unknown where every step brings new challenges and unforeseen wonders. As the sun sets on the horizon, casting long shadows across the sandy beaches and rocky cliffs, the stage is set for an adventure unlike any other—a journey into the heart of the Mysterious Island.",
             soundEffect: "mixkit-arcade-retro-game-over-213.wav",
+            backgroundImage: "url('ygjh.avif')",
             options: [
                 { text: "Start", nextScene: 1 },
             ]
@@ -11,7 +12,7 @@ const story = {
         {
             text: "Stranded on a mysterious island, you're faced with a crucial decision. To your left, a dense jungle teems with unknown dangers and potential resources. To your right, a rocky cliff offers a vantage point to scan for signs of rescue. With each option comes uncertainty, and the weight of your fate hangs heavy in the air. Will you venture into the jungle, braving its mysteries, or will you remain by the cliffside, hoping for salvation? The choice is yours, and it will define your journey on this enigmatic island.",
             soundEffect: "Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
-            backgroundImage: "url('ygjh.avif')",
+            backgroundImage: "url('deserted-island-1.jpg')",
             options: [
                 { text: "Explore the jungle", nextScene: 10 },
                 { text: "stay and wait for rescue", nextScene: 2 }
@@ -21,7 +22,7 @@ const story = {
         {
             text: "Choosing to stay and wait for rescue, you settle in by the rocky cliff, keeping a watchful eye on the horizon. You gather driftwood for a fire, ensuring you're visible to any passing ships or planes. Each day, you scan the sea for signs of hope, never losing faith that help will come. In the meantime, you focus on survival, finding food and water to sustain yourself while you wait patiently for your chance to be rescued.",
             soundEffect: "Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
-            backgroundImage: "url('ygjh.avif')", 
+            backgroundImage: "url('sitting-on-the-beach.jpg')", 
             options: [
                 { text: "Build a shelter", nextScene: 4 },
                 { text: "enjoy swimming in the beach", nextScene: 3 }
