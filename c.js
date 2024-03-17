@@ -349,14 +349,12 @@ let yourRateText = null;
 
 
 function provideRating(rating) {
-    // Increment the total rating and maximum possible rating
+    
     totalRating = rating;
     totalMaxRating = 5;
-    // Update the "Your rate" text
+   
     updateYourRateText();
-    // Display feedback form with star rating
     displayFeedbackForm(rating);
-    // Disable star buttons after rating is provided
     disableStarButtons();
 }
 
@@ -438,8 +436,6 @@ function updateStory(sceneIndex) {
 
 
 function displayFeedbackForm(stars) {
-    // Here, you can implement code to display a feedback form or dialog box
-    // Example:
     const feedbackForm = document.getElementById('feedback-form');
     feedbackForm.style.display = 'block'; // Show the feedback form
     console.log("Stars submitted:", stars,'/', '5');
@@ -461,19 +457,12 @@ function enableStarButtons() {
 
 
 function submitFeedback() {
-    // Here, you can implement code to gather feedback from the form and send it to your server
-    // Example:
     const feedbackText = document.getElementById('feedback-text').value;
-    // Send feedbackText to server or perform any desired action
     console.log("Feedback submitted:", feedbackText);
-    // Clear the feedback text area
     document.getElementById('feedback-text').value = '';
-    // Close the feedback form after submission
     document.getElementById('feedback-form').style.display = 'none';
 
-    // Reset the story to the first scene
     updateStory(0);
-    // Enable star buttons after feedback is submitted
     enableStarButtons();
 }
 
