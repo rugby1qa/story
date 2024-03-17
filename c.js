@@ -348,14 +348,17 @@ let yourRateText = null;
 
 
 function provideRating(rating) {
-   
-    totalRating += rating;
-    totalMaxRating += 5;
-    
+    // Increment the total rating and maximum possible rating
+    totalRating = rating;
+    totalMaxRating = 5;
+    // Update the "Your rate" text
     updateYourRateText();
-    
-    displayFeedbackForm();
+    // Display feedback form with star rating
+    displayFeedbackForm(rating);
+    // Disable star buttons after rating is provided
+    disableStarButtons();
 }
+
 
 
 function updateYourRateText() {
@@ -433,24 +436,45 @@ function updateStory(sceneIndex) {
 }
 
 
-function displayFeedbackForm() {
-    
+function displayFeedbackForm(stars) {
+    // Here, you can implement code to display a feedback form or dialog box
+    // Example:
     const feedbackForm = document.getElementById('feedback-form');
-    feedbackForm.style.display = 'block';
+    feedbackForm.style.display = 'block'; // Show the feedback form
+    console.log("Stars submitted:", stars,'/', '5');
+}
+
+function disableStarButtons() {
+    const starButtons = document.querySelectorAll('.star-rating-button');
+    starButtons.forEach(button => {
+        button.disabled = true;
+    });
+}
+
+function enableStarButtons() {
+    const starButtons = document.querySelectorAll('.star-rating-button');
+    starButtons.forEach(button => {
+        button.disabled = false;
+    });
 }
 
 
 function submitFeedback() {
-   
+    // Here, you can implement code to gather feedback from the form and send it to your server
+    // Example:
     const feedbackText = document.getElementById('feedback-text').value;
-   
+    // Send feedbackText to server or perform any desired action
     console.log("Feedback submitted:", feedbackText);
-  
+    // Clear the feedback text area
     document.getElementById('feedback-text').value = '';
-
+    // Close the feedback form after submission
     document.getElementById('feedback-form').style.display = 'none';
-    
+
+    // Reset the story to the first scene
     updateStory(0);
+    // Enable star buttons after feedback is submitted
+    enableStarButtons();
 }
 
 updateStory(0);
+
