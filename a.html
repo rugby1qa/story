@@ -27,6 +27,20 @@
         .rating-display {
             margin-top: 10px;
         }
+        
+        #feedback-form {
+            display: none;
+            margin-top: 20px;
+        }
+        #feedback-text {
+            width: 100%;
+            height: 100px;
+            resize: vertical;
+        }
+        #submit-feedback-btn {
+            display: block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -37,27 +51,33 @@
         <p id="story-text">Once upon a time, you find yourself shipwrecked on a deserted island. The sun beats down relentlessly as you survey your surroundings. To your left, you see a dense jungle, and to your right, a rocky cliff overlooks the crashing waves.</p>
         <br>
         <div id="options-container">
-            <!-- Options and star rating buttons will be added here -->
+          
         </div>
     </div>
 
-    <!-- Optional: Add background music -->
+   
+    <div id="feedback-form" class="story-container">
+        <h2>Feedback</h2>
+        <textarea id="feedback-text" placeholder="Enter your feedback here"></textarea>
+        <button id="submit-feedback-btn" onclick="submitFeedback()">Submit</button>
+    </div>
+
+   
     <audio id="background-music" src="background-music.mp3" loop></audio>
 
     <script src="c.js"></script>
     <script>
-        // Define your story content and choices
-        // Add event listeners to the buttons
+        
         document.getElementById('option1').addEventListener('click', function() {
-            updateStory(0); // Call updateStory with the appropriate scene index
+            updateStory(0); 
         });
 
         document.getElementById('option2').addEventListener('click', function() {
-            updateStory(1); // Call updateStory with the appropriate scene index
+            updateStory(1); 
         });
 
         document.getElementById('option3').addEventListener('click', function() {
-            updateStory(2); // Call updateStory with the appropriate scene index
+            updateStory(2); 
         });
     </script>
 </body>
