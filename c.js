@@ -3,6 +3,7 @@ const story = {
     scenes: [
         {
             text: "Amidst the vast expanse of the open sea lies a remote and enigmatic island, shrouded in mystery and teeming with untold secrets. Its rugged coastline, battered by the relentless waves, guards the entrance to a world untouched by time, where ancient forests echo with the whispers of forgotten tales and hidden treasures lie waiting to be discovered. For those bold enough to brave its perilous shores, the island offers both peril and promise, a journey into the unknown where every step brings new challenges and unforeseen wonders. As the sun sets on the horizon, casting long shadows across the sandy beaches and rocky cliffs, the stage is set for an adventure unlike any other—a journey into the heart of the Mysterious Island.",
+            soundEffect: "mixkit-arcade-retro-game-over-213.wav",
             backgroundImage: "url('ygjh.avif')",
             options: [
                 { text: "Start", nextScene: 1 },
