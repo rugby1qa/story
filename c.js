@@ -218,7 +218,7 @@ const story = {
         {
             text: "You continue exploring the jungle, following a stream deeper into the heart of the island, suddenly a bear appear in front of you, As the bear emerges from the foliage, I freeze, my heart pounding in my chest. Quickly assessing the situation, I slowly back away, keeping a watchful eye on the imposing creature. With the freshly caught fish in hand, I consider my options, knowing that any sudden movements could provoke the bear into action.",
             soundEffect: "Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
-            backgroundImage: "url('joimef.jpg')",
+            backgroundImage: "url('darien+gap+venezuelan+child.JPG')",
             options: [
                 { text: "give some food", nextScene: 26 },
                 { text: "run away", nextScene: 27 },
