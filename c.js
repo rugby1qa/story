@@ -20,160 +20,160 @@ const story = {
         },
         
         {
-            text: "Choosing to stay and wait for rescue, you settle in by the rocky cliff, keeping a watchful eye on the horizon. You gather driftwood for a fire, ensuring you're visible to any passing ships or planes. Each day, you scan the sea for signs of hope, never losing faith that help will come. In the meantime, you focus on survival, finding food and water to sustain yourself while you wait patiently for your chance to be rescued.",
-            soundEffect: "Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
-            backgroundImage: "url('sitting-on-the-beach.jpg')", 
-            options: [
-                { text: "Build a shelter", nextScene: 4 },
-                { text: "enjoy swimming in the beach", nextScene: 3 }
-            ]
-        },
+                text: "Opting to await rescue, you position by the rocky cliff, vigilant over the horizon, building a signal fire from driftwood for visibility. Daily, you scan for signs of hope, unwavering in faith, while ensuring sustenance with foraged food and water, patiently awaiting rescue.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/ygjh.avif')", 
+                options: [
+                    { text: "Build a shelter", nextScene: 4 },
+                    { text: "enjoy swimming in the beach", nextScene: 3 }
+                ]
+            },
+            {
+                text: "In a horrifying turn, a shark surfaces and attacks, its jaws closing in swiftly. Caught off guard, you're ensnared, feeling the searing pain of its bite. As darkness looms, the grim reality sets in: rescue will never arrive, your fate sealed by the merciless depths.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/Red-Water-2003.jpg')",
+                options: [          
+                ]   
+            },
+            {
+                text: "As dusk falls, shadows stretch over the sandy shore, marking the end of your exhausting shelter-building efforts. Yet, hunger persists, driving you to venture out into the night in search of sustenance, fueled by determination to quiet your stomach and prepare for the trials ahead.",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/Arctic-Lean-To-13.jpg')",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Suicide%20Mouse%20theme%20song.mp3",
+                options: [
+                    { text: "look foor food in the jungle", nextScene: 6 },
+                    { text: "endure the hunger", nextScene: 5 }
+                ]
+            },
+            {
+                text: "In a cruel twist of fate, hunger and dehydration claim you before you can find sustenance. Despite your efforts and resilience, the harsh reality of survival on the island proves too much to bear. As your strength wanes and your vision dims, you succumb to the unforgiving elements, your journey cut tragically short amidst the silent expanse of the mysterious island.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Sonic.exe%20Green%20hill%20zone%20extended.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/images%20(19).jpg')",
+                options: [
+                    
+                ]
+            },
+            {
+                text: "Navigating the jungle's darkness, you tread cautiously, senses alert for danger. Stumbling upon a towering mushroom and grotesque bug, you're met with the putrid stench of rotten meat, a stark reminder of survival's harsh realities. With trepidation and desperation, you weigh your options, aware that your next move in this untamed wilderness could lead to sustenance or further peril.",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/idasok.jpg')",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Cry%20Of%20The%20Unheard.mp3",
+                options: [
+                    { text: "eat mushroom", nextScene: 7 },
+                    { text: "eat bug", nextScene: 9 },
+                    { text: "eat rotten meat", nextScene: 8 }
+                ]
+            },
+            {
+                text: "In a desperate bid to quell hunger, you consume the mysterious mushroom, unaware of its toxic nature. As dizziness and excruciating pain engulf you, vision blurs and strength ebbs away until darkness claims you, a fatal mistake amidst the jungle's shadows sealing your fate.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/It's%20a%20Small%20World%20Creepy%20Piano%20(Reversed).mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/esdf.jpg')",
+                options: [
+                    
+                ]
+            },
+            {
+                text: "As you investigate the rotten meat, a rustle behind you signals danger. Before you can react, a massive bear emerges, its hungry eyes locking onto you. With a deafening roar, it pounces, overwhelming you instantly. In a frenzy of fur and teeth, the apex predator seals your fate amidst the unforgiving jungle.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Starvation.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/gjd.jpg')",
+                options: [
+                    
+                ]
+            },
+            {
+                text: "Overcoming your disgust, you recognize the grotesque bug as a potential source of high protein crucial for survival on the harsh island. With grim resolve, you consume it, suppressing revulsion with each repulsive mouthful. Despite the lingering foul taste, you return to your shelter, thankful for the meager sustenance that promises to help you endure the challenges ahead.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Mr.%20Incredible%20Becoming%20Canny%20-%20Phase%206%20Full.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/download%20(23).jpg')",
+                options: [
+                    
+                    
+                ]
+            },
+            {
+                text: "Heart pounding, you confront three diverging paths at the jungle's edge. Ahead, a serene stream offers refreshment and possible sustenance. To the left, a dark cave entrance promises mystery and potential danger, while a distant roar to the right fills you with fear and curiosity. With each option uncertain, your choice will determine your journey's course through the jungle's depths.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Mr.%20incredible%20becoming%20uncanny%20phase%201.5%20full%20music.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/download%20(25).jpg')",
+                options: [
+                    { text: "follow the river", nextScene: 20 },
+                    { text: "explore the cave", nextScene: 14 },
+                    { text: "investigate the noise", nextScene: 11 }
+                ]
+            },
+            {
+                text: "Driven by fear and curiosity, you cautiously advance toward the source of the roar, heart pounding with each step. Pushing through dense foliage, shock grips you as you confront a majestic yet fearsome tiger. Its amber eyes lock onto you with an intensity that sends shivers down your spine, its powerful form ready for action.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Suicide%20Mouse%20theme%20song.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/dwuajiosk.jpg')",
+                options: [
+                    { text: "pet the tiger and give some food", nextScene: 12 },
+                    { text: "kill the tiger", nextScene: 13 },
+                ]
+            },
+            {
+                text: "With the tiger as your companion, hunting becomes effortless. Its keen senses and ferocious abilities make the once daunting task seamless. Together, you navigate the jungle with newfound confidence, securing sustenance effortlessly. Each successful hunt strengthens your bond, forging an unbreakable connection of mutual survival. Together, you conquer every obstacle in the unforgiving wilderness, an unstoppable force in the face of adversity.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Mr%20Incredible%20Becoming%20Canny%20-%20Phase%204%20Full.mp3", 
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/download%20(26).jpg')",
+                options: [
+                    
+                ]
+            },
+            {
+                text: "As you realize the tiger you've killed is just a cub, dread fills your heart. Before you can process your mistake, a deafening roar signals the enraged mother tiger. With lightning speed, she attacks, her fury evident in her blazing eyes. In a lethal embrace, her powerful jaws seal your fate, plunging you into darkness, a fatal misstep in the heart of the jungle.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Starvation.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/1663027120922.jpg')",
+                options: [
+                    
+                ]
+            }, 
+            
+            {
+                text: "Heart pounding, you venture into the cave's darkness, torchlight guiding your way. Your eyes adjust to find a gleaming treasure chest, lid ajar, sparking excitement. But joy fades as a low growl signals a massive bear guarding it. With adrenaline surging, you face the choice: confront the bear for the treasure or retreat and seek another path.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/ROBLOX%20Music%20-%20Horror.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/jwa.jpg')",
+                options: [
+                    { text: "approach the treassure quitly", nextScene: 16 },
+                    { text: "wake the bear up, and distract the bear with a food", nextScene: 17 },
+                    { text: "kill the bear while its sleeping", nextScene: 15 },
+                ]
+            },
+            {
+                text: "With adrenaline fueling your resolve, you confront the bear, intent on claiming the treasure. In a fierce struggle, you overpower it, but triumph is brief. As you reach for the treasure, a chilling growl signals more bears charging toward you. Trapped with no escape, you meet your end at their claws, your quest for riches ending in tragedy deep within the cave's heart.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/In%20The%20Dark.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
+                options: [
+                ]
+            },
+            {
+                text: "Heart pounding, you snatch the treasure and flee the cave, enraged bears close behind. Adrenaline propels you through dense underbrush, branches lashing and rocks threatening to trip you. With survival as your sole aim, you press on, miraculously outrunning the pursuing bears. Emerging battered and breathless, you clutch the treasure tightly, victorious against the jungle's trials.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Mr%20Incredible%20Becoming%20Canny%20-%20Phase%203%20Full.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/asdaf.jpg')",
+                options: [
+                ]
+            },
+            {
+                text: "With the chest secured, I quickly assess my situation, recognizing the risk of attempting to escape while the bears are alert. Opting for stealth, I choose to remain hidden, patiently awaiting the bears' return to slumber. It's a risky gamble, but I know patience is crucial. Hunkering down in the shadows, heart pounding, I silently pray for the bears to settle, hoping for a chance to escape without further confrontation.",
+                soundEffect: "file:///C:/Users/CJ/Downloads/Kyomi's%20Lullaby.mp3",
+                backgroundImage: "url('file:///C:/Users/CJ/Downloads/download%20(27).jpg')",
+                options: [
+                    { text: "wait for the bears to sleep then escape", nextScene: 18 },
+                    { text: "escape quitly", nextScene: 19 },           
+                ]
+            },
         {
-            text: "In a horrifying twist of fate, a shark emerges from the depths and attacks, its razor-sharp jaws closing in on you with terrifying speed. With no time to react, you find yourself ensnared in its deadly embrace, the searing pain of its teeth tearing into your flesh. As darkness descends, you realize with a sinking heart that rescue will never come, your fate sealed by the merciless jaws of the deep.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('Red-Water-2003.jpg')",
-            options: [          
-            ]   
-        },
-        {
-            text: "As the sun dips below the horizon, casting long shadows across the sandy shore, you stand back, exhausted but proud, having spent hours building a shelter. However, as darkness descends, hunger gnaws at your stomach, a reminder of your immediate needs. Determined, you gather what little energy remains and set out into the night, hoping to find food to quell the ache and sustain you through the challenges ahead.",
-            backgroundImage: "url('Arctic-Lean-To-13.jpg')",
-            soundEffect: "Suicide%20Mouse%20theme%20song.mp3",
-            options: [
-                { text: "look foor food in the jungle", nextScene: 6 },
-                { text: "endure the hunger", nextScene: 5 }
-            ]
-        },
-        {
-            text: "In a cruel twist of fate, hunger and dehydration claim you before you can find sustenance. Despite your efforts and resilience, the harsh reality of survival on the island proves too much to bear. As your strength wanes and your vision dims, you succumb to the unforgiving elements, your journey cut tragically short amidst the silent expanse of the mysterious island.",
-            soundEffect: "Sonic.exe%20Green%20hill%20zone%20extended.mp3",
-            backgroundImage: "url('images%20(19).jpg')",
-            options: [
-                
-            ]
-        },
-        {
-            text: "With darkness enveloping the jungle, you tread cautiously, your senses on high alert for any signs of danger. In the dim light, you stumble upon a large mushroom, its cap towering above the undergrowth like a spectral beacon. Nearby, a grotesque bug scuttles across the forest floor, its movements eerie in the night's shadows. A putrid stench wafts through the air, leading you to a patch of rotten meat, a grim reminder of the harsh realities of survival in this untamed wilderness. With a mixture of trepidation and desperation, you weigh your options, knowing that your next move could mean the difference between sustenance and further peril in the heart of the jungle.",
-            backgroundImage: "url('idasok.jpg')",
-            soundEffect: "Cry%20Of%20The%20Unheard.mp3",
-            options: [
-                { text: "eat mushroom", nextScene: 7 },
-                { text: "eat bug", nextScene: 9 },
-                { text: "eat rotten meat", nextScene: 8 }
-            ]
-        },
-        {
-            text: "In a moment of desperation, you consume the mysterious mushroom, hoping it will alleviate your hunger. However, as its toxic effects take hold, a wave of dizziness overwhelms you, followed by excruciating pain. With each passing moment, your vision blurs and your strength wanes until, ultimately, darkness claims you, your fate sealed by a fatal mistake amidst the shadows of the jungle.",
-            soundEffect: "It's%20a%20Small%20World%20Creepy%20Piano%20(Reversed).mp3",
-            backgroundImage: "url('esdf.jpg')",
-            options: [
-                
-            ]
-        },
-        {
-            text: "As you lean in to inspect the rotten meat, a sudden rustle alerts you to a presence behind you. Before you can react, a massive bear emerges from the shadows, its hungry eyes fixed upon you. With a roar that reverberates through the night, it lunges forward, overpowering you in an instant. In a flurry of fur and teeth, the bear devours you, your fate sealed by the cruel whims of the jungle's apex predator.",
-            soundEffect: "Starvation.mp3",
-            backgroundImage: "url('gjd.jpg')",
-            options: [
-                
-            ]
-        },
-        {
-            text: "Suppressing your revulsion, you seize upon the opportunity presented by the grotesque bug, knowing that its high protein content could sustain you through another day on the unforgiving island. With grim determination, you force yourself to consume the insect, choking back your disgust as you swallow each repulsive mouthful. Despite the foul taste lingering in your mouth, you return to your shelter, grateful for the meager sustenance that will allow you to endure the challenges that lie ahead.",
-            soundEffect: "Mr.%20Incredible%20Becoming%20Canny%20-%20Phase%206%20Full.mp3",
-            backgroundImage: "url('download%20(23).jpg')",
-            options: [
-                
-                
-            ]
-        },
-        {
-            text: "Heart pounding, you stand at the edge of the jungle, faced with three diverging paths. In the center lies a serene stream, its gentle flow beckoning with promises of refreshment and perhaps sustenance. To your left, a dark cave entrance yawns wide, its depths shrouded in mystery and potential danger. And to your right, a distant roar echoes through the trees, a primal sound that fills you with both fear and curiosity. With each option fraught with uncertainty, you must choose wisely, knowing that your decision will shape the course of your journey through the heart of the jungle.",
-            soundEffect: "Mr.%20incredible%20becoming%20uncanny%20phase%201.5%20full%20music.mp3",
-            backgroundImage: "url('download%20(25).jpg')",
-            options: [
-                { text: "follow the river", nextScene: 20 },
-                { text: "explore the cave", nextScene: 14 },
-                { text: "investigate the noise", nextScene: 11 }
-            ]
-        },
-        {
-            text: "Driven by a mix of fear and curiosity, you cautiously approach the source of the roar, heart pounding in your chest with every step. As you push through the dense foliage, your eyes widen in shock and dread as you come face to face with a majestic yet fearsome tiger. Its amber eyes fixate on you with an intensity that sends a shiver down your spine, its powerful form poised for action. ",
-            soundEffect: "Suicide%20Mouse%20theme%20song.mp3",
-            backgroundImage: "url('dwuajiosk.jpg')",
-            options: [
-                { text: "pet the tiger and give some food", nextScene: 12 },
-                { text: "kill the tiger", nextScene: 13 },
-            ]
-        },
-        {
-            text: "With the tiger by your side, hunting becomes infinitely easier. Its keen senses and ferocious prowess turn the once daunting task into a seamless endeavor. Together, you navigate the jungle with a newfound confidence, securing sustenance with greater ease than ever before. With each successful hunt, your bond with your beast friend deepens, forging an unbreakable connection born of mutual survival. Together, you are an unstoppable force in the unforgiving wilderness, overcoming every obstacle that stands in your path.",
-            soundEffect: "Mr%20Incredible%20Becoming%20Canny%20-%20Phase%204%20Full.mp3", 
-            backgroundImage: "url('download%20(26).jpg')",
-            options: [
-                
-            ]
-        },
-        {
-            text: "As the realization dawns upon you that the tiger you've slain is but a cub, a chilling sense of dread fills your heart. Before you can comprehend the gravity of your mistake, a deafening roar pierces the air, and you turn to face the enraged mother tiger, her golden eyes ablaze with fury. With lightning speed, she pounces, her powerful jaws closing around you in a lethal embrace. In an instant, your world fades to black, your fate sealed by a fatal misstep in the heart of the jungle.",
-            soundEffect: "Starvation.mp3",
-            backgroundImage: "url('1663027120922.jpg')",
-            options: [
-                
-            ]
-        }, 
-        
-        {
-            text: "Heart racing with excitement and trepidation, you step into the darkness of the cave, guided by the flickering light of your torch. As your eyes adjust to the dimness, they widen in astonishment at the sight before you: a gleaming treasure chest nestled in a corner, its lid slightly ajar. But your joy is short-lived as a low growl reverberates through the cavern, and you turn to see a massive bear hugging the chest protectively. With adrenaline coursing through your veins, you must decide whether to risk confronting the bear for the treasure or to retreat and seek another path.",
-            soundEffect: "ROBLOX%20Music%20-%20Horror.mp3",
-            backgroundImage: "url('jwa.jpg')",
-            options: [
-                { text: "approach the treassure quitly", nextScene: 16 },
-                { text: "wake the bear up, and distract the bear with a food", nextScene: 17 },
-                { text: "kill the bear while its sleeping", nextScene: 15 },
-            ]
-        },
-        {
-            text: "With a surge of adrenaline, you confront the bear, determined to claim the treasure as your own. In a fierce battle, you manage to overpower the beast, but your victory is short-lived. As you reach for the treasure, a chilling growl fills the cavern, and you turn to see a pair of enraged bears charging toward you. With nowhere to run and no hope of escape, you meet your demise at the claws of the vengeful creatures, your quest for riches ending in tragedy deep within the heart of the cave.",
-            soundEffect: "In%20The%20Dark.mp3",
-            backgroundImage: "url('joimef.jpg')",
-            options: [
-            ]
-        },
-        {
-            text: "Heart pounding, you seize the treasure and bolt from the cave, the sound of enraged bears hot on your heels. With every ounce of strength, you sprint through the dense underbrush, adrenaline fueling your desperate flight. Branches lash at your face, and rocks threaten to trip you, but you press on, driven by the singular goal of survival. Miraculously, you manage to outrun the pursuing bears, emerging from the jungle's embrace battered and breathless, but victorious with the treasure clutched tightly in your grasp.",
-            soundEffect: "Mr%20Incredible%20Becoming%20Canny%20-%20Phase%203%20Full.mp3",
-            backgroundImage: "url('asdaf.jpg')",
-            options: [
-            ]
-        },
-        {
-            text: "As the other bears awaken, I quickly assess the situation. With the chest in hand, I know I have a limited window of opportunity to escape. However, I also realize that attempting to run while the bears are alert could prove disastrous. Instead, I opt to remain hidden, waiting patiently for the bears to settle back into slumber. It's a risky gamble, but I know that patience and stealth are my best allies in this precarious situation. As I hunker down in the shadows, heart pounding with anticipation, I silently pray for the bears to drift back into sleep, allowing me the chance to make my escape without further confrontation.",
-            soundEffect: "Kyomi's%20Lullaby.mp3",
-            backgroundImage: "url('download%20(27).jpg')",
-            options: [
-                { text: "wait for the bears to sleep then escape", nextScene: 18 },
-                { text: "escape quitly", nextScene: 19 },           
-            ]
-        },
-        {
-            text: "As I sit motionless, hoping to evade the bears' notice, the scent of my fear permeates the air, betraying my presence. With a low growl, the bears detect my hiding place, and before I can react, they descend upon me with primal fury. In a flurry of claws and teeth, their savage onslaught overwhelms me, my futile attempts at escape proving no match for the ferocity of the enraged beasts. In the end, all that remains is silence, the echo of my demise lost amidst the depths of the unforgiving cave.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('images%20(20).jpg')",
+            text: "Motionless in my hiding spot, the scent of fear betrays me, alerting the bears to my presence. With a low growl, they find me, descending with primal fury. Before I can react, their savage assault overwhelms me, my attempts at escape futile against their ferocity. In the end, only silence remains, my demise lost in the depths of the unforgiving cave.",
+            soundEffect: "ffile:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/images%20(20).jpg')",
             options: [       
             ]
         },
         {
-            text: "With a calculated risk, I seize the opportunity to quietly slip away amidst the distraction of the other bears. As I move swiftly through the cave, I snatch a piece of their last remaining meat, hoping to mask my scent and buy myself precious moments of escape. With each cautious step, I make my way towards the exit, heart pounding in my chest as I navigate the labyrinthine passages. Finally, as the sounds of the bears fade into the distance, I emerge from the cave's mouth, the treasure chest clutched tightly in my grasp. Though I've narrowly escaped the jaws of danger, the memory of that harrowing encounter will linger with me as a reminder of the perilous risks one must take in the pursuit of fortune.",
-            soundEffect: "Mr%20Incredible%20Becoming%20Canny%20-%20Phase%203%20Full.mp3",
-            backgroundImage: "url('download%20(28).jpg')",
+            text: "Taking a calculated risk, I slip away amidst the distraction of the other bears, swiftly moving through the cave. Snatching a piece of their meat to mask my scent, I cautiously navigate the labyrinthine passages, heart pounding. As the sounds of the bears fade, I emerge from the cave, treasure chest in hand. Though narrowly escaping danger, the memory of the harrowing encounter remains, a reminder of the risks in the pursuit of fortune.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Mr%20Incredible%20Becoming%20Canny%20-%20Phase%203%20Full.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/download%20(28).jpg')",
             options: [         
             ]
         },
         {
-            text: "Deciding to follow the river, I embark on a journey downstream, my eyes scanning the surrounding landscape for any signs of civilization or clues that might lead me to safety. With each passing mile, the gentle murmur of the water soothes my frayed nerves, offering a sense of solace amidst the uncertainty of my circumstances. As I travel further along the river's winding course, I remain vigilant, ever watchful for any potential threats or opportunities that may present themselves along the way. With determination in my heart and the treasure chest as my steadfast companion, I press onward, ready to face whatever challenges lie ahead on this winding path to unknown shores.",
-            soundEffect: "Mr%20Incredible%20Becoming%20Canny%20-%20Phase%2012%20Full%20(mp3cut.net).mp3",
-            backgroundImage: "url('asfagsd.jpg')",
+            text: "Choosing to follow the river downstream, I scan the landscape for signs of civilization or safety. The gentle murmur of water calms my nerves, offering solace amidst uncertainty. Remaining vigilant for threats or opportunities, I press onward with determination, the treasure chest by my side, ready to face whatever challenges arise on this journey to unknown shores.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Mr%20Incredible%20Becoming%20Canny%20-%20Phase%2012%20Full%20(mp3cut.net).mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/asfagsd.jpg')",
             options: [
                 { text: "catch some fish", nextScene: 21 },
                 { text: "keep going", nextScene: 25 },
@@ -182,9 +182,9 @@ const story = {
             ]
         },
         {
-            text: "You catch some fish, now you have food for the day, suddenly a bear appear in front of you, As the bear emerges from the foliage, I freeze, my heart pounding in my chest. Quickly assessing the situation, I slowly back away, keeping a watchful eye on the imposing creature. With the freshly caught fish in hand, I consider my options, knowing that any sudden movements could provoke the bear into action.",
-            soundEffect: "Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
-            backgroundImage: "url('4-7.jpg')",
+            text: "As the bear appears, I freeze, heart pounding. Slowly backing away, I keep a watchful eye on the imposing creature. With freshly caught fish in hand, I weigh my options, cautious not to provoke any sudden action from the bear.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/4-7.jpg')",
             options: [
                 { text: "give some food", nextScene: 22 },
                 { text: "run away", nextScene: 23 },
@@ -192,33 +192,33 @@ const story = {
             ]
         },
         {
-            text: "With the freshly caught fish in hand, I consider offering it as a peace offering, hoping to appease the bear and defuse the situation. Carefully, I toss the fish a safe distance away, creating a distraction that might buy me enough time to retreat safely. With my heart racing, I watch as the bear sniffs at the fish, momentarily distracted by the unexpected feast. Seizing the opportunity, I quietly slip away, breathing a sigh of relief as I continue my journey along the river, grateful to have avoided a potentially dangerous encounter with the wild beast. ",
-            soundEffect: "Mr%20Incredible%20Becoming%20Canny%20-%20Phase%203%20Full.mp3",
-            backgroundImage: "url('210427-bear-tease_gdkspk.jpg')",
+            text: "With the fish in hand, I offer it as a peace offering to the bear, hoping to defuse the situation. Carefully tossing the fish away, I create a distraction to buy time for a safe retreat. Heart racing, I watch as the bear sniffs the fish, momentarily distracted. Seizing the chance, I slip away quietly, relieved to avoid danger as I continue my journey along the river. ",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Mr%20Incredible%20Becoming%20Canny%20-%20Phase%203%20Full.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/210427-bear-tease_gdkspk.jpg')",
             options: [
                 { text: "keep going", nextScene: 37 },
             ]
         },
         {
-            text: "Exhausted and weary from the day's trials, the main character's fatigue proves to be their downfall. As they stumble along the riverbank, the bear swiftly closes the distance, its powerful strides closing in on its prey. With a final burst of adrenaline, the main character attempts to flee, but their tired legs betray them, and they stumble to the ground. In a heart-wrenching moment, the bear overtakes them, its razor-sharp claws and powerful jaws spelling the end of their journey. With a heavy heart, the main character's story comes to a tragic close amidst the unforgiving wilderness, a sobering reminder of the harsh realities of survival in the wild.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Exhausted from the day's trials, the main character's fatigue proves their downfall. Stumbling along the riverbank, they're swiftly pursued by the bear. Despite a final burst of adrenaline, their tired legs fail them, and they collapse. In a heart-wrenching moment, the bear overtakes them, ending their journey tragically. It's a sobering reminder of the harsh realities of survival in the wild.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
                 
             ]
         },
         {
-            text: "You dont have a supply to craft a weapon, Without the means to defend themselves, the main character's fate is sealed as the bear swiftly closes in. With no weapon at their disposal, they are left defenseless against the powerful predator. In a heart-stopping moment, the bear's ferocious attack overwhelms them, and their journey comes to a tragic end amidst the untamed wilderness. It's a sobering reminder of the unforgiving nature of the wild and the importance of being prepared for the dangers that lurk in its shadows.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('Downloads/joimef.jpg')",
+            text: "Without a weapon, the main character is defenseless as the bear closes in. In a heart-stopping moment, the ferocious attack overwhelms them, sealing their tragic fate in the untamed wilderness. It's a sobering reminder of the wild's unforgiving nature and the necessity of being prepared for its dangers.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
                 
             ]
         },
         {
-            text: "You continue exploring the jungle, following a stream deeper into the heart of the island, suddenly a bear appear in front of you, As the bear emerges from the foliage, I freeze, my heart pounding in my chest. Quickly assessing the situation, I slowly back away, keeping a watchful eye on the imposing creature. With the freshly caught fish in hand, I consider my options, knowing that any sudden movements could provoke the bear into action.",
-            soundEffect: "Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
-            backgroundImage: "url('darien+gap+venezuelan+child.JPG')",
+            text: "As the bear emerges, I freeze, heart pounding. Slowly backing away, I keep a watchful eye on the imposing creature. With the freshly caught fish in hand, I weigh my options, cautious not to provoke any sudden action from the bear.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
                 { text: "give some food", nextScene: 26 },
                 { text: "run away", nextScene: 27 },
@@ -226,32 +226,32 @@ const story = {
             ]
         },
         {
-            text: "With no food to offer as a distraction, the main character's options dwindle as the bear advances. Paralyzed by fear and lacking any means of appeasing the hungry predator, they find themselves at the mercy of the wild beast. In a swift and brutal attack, the bear closes in, its primal instincts driving it to overpower and consume its prey. The main character's journey comes to a tragic end, a stark reminder of the merciless laws of nature and the harsh consequences of being ill-prepared in the wilderness.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Devoid of any distraction, the main character faces dwindling options as the bear advances. Paralyzed by fear and lacking means to appease the hungry predator, they become at the mercy of the wild beast. In a swift, brutal attack, the bear closes in, driven by primal instincts to overpower and consume its prey. The journey tragically ends, highlighting the merciless laws of nature and the harsh consequences of being ill-prepared in the wilderness.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
             ]
         },
         {
-            text: "Exhausted and weary from the day's trials, the main character's fatigue proves to be their downfall. As they stumble along the riverbank, the bear swiftly closes the distance, its powerful strides closing in on its prey. With a final burst of adrenaline, the main character attempts to flee, but their tired legs betray them, and they stumble to the ground. In a heart-wrenching moment, the bear overtakes them, its razor-sharp claws and powerful jaws spelling the end of their journey. With a heavy heart, the main character's story comes to a tragic close amidst the unforgiving wilderness, a sobering reminder of the harsh realities of survival in the wild.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
-            options: [
-                
-            ]
-        },
-        {
-            text: "You dont have a supply to craft a weapon, Without the means to defend themselves, the main character's fate is sealed as the bear swiftly closes in. With no weapon at their disposal, they are left defenseless against the powerful predator. In a heart-stopping moment, the bear's ferocious attack overwhelms them, and their journey comes to a tragic end amidst the untamed wilderness. It's a sobering reminder of the unforgiving nature of the wild and the importance of being prepared for the dangers that lurk in its shadows.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Exhausted from the day's trials, the main character's fatigue becomes their downfall. Stumbling along the riverbank, they're swiftly pursued by the bear. Despite a final burst of adrenaline, their tired legs fail them, and they collapse. In a heart-wrenching moment, the bear overtakes them, ending their journey tragically. It's a sobering reminder of the harsh realities of survival in the wild.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
                 
             ]
         },
         {
-            text: "Feeling rejuvenated after a restful night, I steel myself to continue my exploration of the jungle. However, my plans are abruptly interrupted as a bear emerges from the dense foliage. Heart pounding, I remain calm and slowly back away, keeping a watchful eye on the bear's movements. Despite the adrenaline coursing through my veins, I remember the importance of staying composed in the face of danger. With each careful step, I retreat from the bear, my mind racing with thoughts of finding safety and regrouping before continuing my journey through the untamed wilderness.",
-            soundEffect: "Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
-            backgroundImage: "url('jnkmdas.jpg')",
+            text: "Without a means to defend themselves, the main character's fate is sealed as the bear swiftly closes in. Defenseless against the powerful predator, they succumb to its ferocious attack, their journey ending tragically in the untamed wilderness. It's a sobering reminder of the unforgiving nature of the wild and the necessity of being prepared for its lurking dangers.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
+            options: [
+                
+            ]
+        },
+        {
+            text: "Feeling rejuvenated after a restful night, I prepare to resume exploring the jungle, but my plans are halted by the sudden appearance of a bear. Heart pounding, I stay calm and slowly back away, keeping a watchful eye on its movements. Despite the adrenaline, I prioritize composure in danger. With each careful step, I retreat, focused on finding safety and regrouping before continuing my journey through the untamed wilderness.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/jnkmdas.jpg')",
             options: [
                 { text: "give some food", nextScene: 30 },
                 { text: "run away", nextScene: 31 },
@@ -259,32 +259,32 @@ const story = {
             ]
         },
         {
-            text: "With no food to offer as a distraction, the main character's options dwindle as the bear advances. Paralyzed by fear and lacking any means of appeasing the hungry predator, they find themselves at the mercy of the wild beast. In a swift and brutal attack, the bear closes in, its primal instincts driving it to overpower and consume its prey. The main character's journey comes to a tragic end, a stark reminder of the merciless laws of nature and the harsh consequences of being ill-prepared in the wilderness.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Facing a relentless bear, the main character, lacking means of defense or distraction, falls prey to its primal instincts. Their journey ends tragically, underscoring nature's merciless laws and the risks of being unprepared in the wilderness.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
             ]
         },
         {
-            text: "since you rested before you continue your exploration, you have now the energy to outrun the bear ",
-            soundEffect: "Mr.%20Incredible%20Becoming%20Canny%20-%20Phase%206%20Full.mp3",
-            backgroundImage: "url('asdaf.jpg')",
+            text: "Refreshed from rest, the main character summons newfound energy to outrun the bear, hes heart pounding with adrenaline as they evade its pursuit. With relief, he continue their exploration through the wilderness, grateful for their fortunate escape. ",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Mr.%20Incredible%20Becoming%20Canny%20-%20Phase%206%20Full.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/asdaf.jpg')",
             options: [
                 { text: "keep going", nextScene: 37 },
             ]
         },
         {
-            text: "You dont have a supply to craft a weapon, Without the means to defend themselves, the main character's fate is sealed as the bear swiftly closes in. With no weapon at their disposal, they are left defenseless against the powerful predator. In a heart-stopping moment, the bear's ferocious attack overwhelms them, and their journey comes to a tragic end amidst the untamed wilderness. It's a sobering reminder of the unforgiving nature of the wild and the importance of being prepared for the dangers that lurk in its shadows.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Without a weapon, the main character's fate is sealed as the bear closes in, leaving them defenseless against the powerful predator. In a heart-stopping moment, the bear's ferocious attack overwhelms them, tragically ending their journey in the untamed wilderness. It's a stark reminder of the unforgiving nature of the wild and the necessity of being prepared for its lurking dangers.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
                 
             ]
         },
         {
-            text: "suddenly a bear appear in front of you, As the bear emerges from the foliage, I freeze, my heart pounding in my chest. Quickly assessing the situation, I slowly back away, keeping a watchful eye on the imposing creature. With the freshly caught fish in hand, I consider my options, knowing that any sudden movements could provoke the bear into action.",
-            soundEffect: "Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
-            backgroundImage: "url('49.jpg')",
+            text: "As the bear emerges, freezing with pounding heart, I slowly back away, assessing the situation. With a freshly caught fish in hand, I weigh my options, cautious not to provoke the bear with sudden movements.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Yume%20Nikki%20OST_%20Shield-Folk%20World%20(Extended).mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/49.jpg')",
             options: [
                 { text: "give some food", nextScene: 34 },
                 { text: "run away", nextScene: 35 },
@@ -292,49 +292,49 @@ const story = {
             ]
         },
         {
-            text: "With no food to offer as a distraction, the main character's options dwindle as the bear advances. Paralyzed by fear and lacking any means of appeasing the hungry predator, they find themselves at the mercy of the wild beast. In a swift and brutal attack, the bear closes in, its primal instincts driving it to overpower and consume its prey. The main character's journey comes to a tragic end, a stark reminder of the merciless laws of nature and the harsh consequences of being ill-prepared in the wilderness.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Facing the advancing bear without distraction or defense, the main character's options dwindle. Paralyzed by fear and lacking means to appease the predator, they succumb to its primal instincts. In a swift, brutal attack, the bear consumes its prey, ending the main character's journey tragically and emphasizing the harsh consequences of wilderness ill-preparedness.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
             ]
         },
         {
-            text: "Exhausted and weary from the day's trials, the main character's fatigue proves to be their downfall. As they stumble along the riverbank, the bear swiftly closes the distance, its powerful strides closing in on its prey. With a final burst of adrenaline, the main character attempts to flee, but their tired legs betray them, and they stumble to the ground. In a heart-wrenching moment, the bear overtakes them, its razor-sharp claws and powerful jaws spelling the end of their journey. With a heavy heart, the main character's story comes to a tragic close amidst the unforgiving wilderness, a sobering reminder of the harsh realities of survival in the wild.",
-            soundEffect: "suicide%20mouse%20scream.mp3",
-            backgroundImage: "url('joimef.jpg')",
+            text: "Exhausted from the day's trials, the main character's fatigue proves their downfall as they stumble along the riverbank, the bear swiftly closing in. Despite a final burst of adrenaline, their tired legs fail them, and they collapse. In a heart-wrenching moment, the bear overtakes them, spelling the end of their journey amidst the unforgiving wilderness. It's a sobering reminder of the harsh realities of survival in the wild.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/suicide%20mouse%20scream.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/joimef.jpg')",
             options: [
                 
             ]
         },
         {
-            text: "With the spear crafted from the available resources, I cautiously approach the bear, my heart pounding with adrenaline and fear. Keeping a steady grip on the makeshift weapon, I inch closer, mindful of the bear's movements. As it lunges towards me, I act swiftly, thrusting the spear with all my strength towards the bear's vulnerable points. With a combination of skill and luck, the spear finds its mark, piercing the bear's flesh and delivering a fatal blow. As the bear collapses to the ground, lifeless, a wave of relief washes over me. Though the encounter was harrowing, I'm grateful for the opportunity to defend myself and emerge victorious in the face of danger. With the threat neutralized, I continue my journey through the jungle, wary of the challenges that may still lie ahead.",
-            soundEffect: "Mr.%20Incredible%20Becoming%20Canny%20-%20Phase%209%20Full.mp3",
-            backgroundImage: "url('jkaf.jpg')",
+            text: "Armed with a makeshift spear, I cautiously approach the bear, heart pounding with fear and adrenaline. As it lunges, I thrust the spear with all my strength, finding its mark and delivering a fatal blow. With relief, I watch as the bear collapses, grateful for the chance to defend myself. With the threat gone, I continue my journey through the jungle, mindful of potential challenges ahead.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Mr.%20Incredible%20Becoming%20Canny%20-%20Phase%209%20Full.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/jkaf.jpg')",
             options: [
                 { text: "keep going", nextScene: 37 },
             ]
         },
         {
-            text: "As I walk alongside the river, marveling at the tranquil beauty of the surroundings, I suddenly notice a perplexing sight: the river has split into two distinct streams, diverging from the main flow. Intrigued by this unexpected phenomenon, I approach the fork in the river, my curiosity piqued. With a sense of wonder, I wonder what might have caused this natural occurrence and what mysteries lie ahead along each path. As I stand at the crossroads, I realize that the decision I make now will determine the course of my journey through the untamed wilderness. With a deep breath, I steel myself for the adventure that awaits and prepare to choose my path with care.",
-            soundEffect: "Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
-            backgroundImage: "url('download%20(29).jpg')",
+            text: "Walking alongside the river, I'm captivated by its tranquil beauty until I notice a perplexing sight: it splits into two distinct streams. Intrigued, I approach the fork, wondering what caused this and what mysteries lie ahead. Standing at the crossroads, I know my choice will shape my journey through the wilderness. With a deep breath, I prepare to choose my path carefully, ready for the adventure ahead.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/download%20(29).jpg')",
             options: [
                 { text: "go to left", nextScene: 39 },
                 { text: "go to right", nextScene: 38 },
             ]
         },
         {
-            text: "As I venture towards the right side of the river, my attention captivated by the allure of the unknown, I fail to notice the treacherous quicksand lying hidden beneath the surface. With a sinking feeling, both figuratively and literally, I realize my mistake too late as the ground gives way beneath me. Panic sets in as I struggle against the relentless pull of the sand, but it's futile. With each passing moment, I sink deeper and deeper, until finally, I'm consumed by the suffocating embrace of the quicksand. In a moment of despair, my journey comes to a tragic end, a stark reminder of the unforgiving nature of the wilderness and the importance of vigilance in the face of danger.",
-            soundEffect: "it's%20just%20a%20burning%20memory%20but%20much%20sadderscarier.mp3",
-            backgroundImage: "url('uihjlwma.jpg')",
+            text: "Venturing toward the right side of the river, I'm captivated by the allure of the unknown, but fail to notice treacherous quicksand hidden beneath the surface. Realizing my mistake too late, I'm consumed by its suffocating embrace, ending my journey tragically—a reminder of the wilderness's unforgiving nature and the importance of vigilance.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/it's%20just%20a%20burning%20memory%20but%20much%20sadderscarier.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/uihjlwma.jpg')",
             options: [
                 
             ]
         }, 
         {
-            text: "As I cautiously approach the campfire on the left side of the river, my heart races with a mixture of hope and apprehension. As I draw nearer, I see a figure seated by the fire, their features illuminated by the dancing flames. With a sense of urgency, I introduce myself, explaining my plight and the desperate need for rescue. To my astonishment and profound relief, the stranger reveals themselves to be a seasoned explorer with the means to navigate the treacherous waters surrounding the island. With gratitude overflowing, I cling to the newfound hope of rescue, knowing that this unexpected encounter may be the key to my salvation from the island's unforgiving embrace.",
-            soundEffect: "Mr%20incredible%20Becoming%20Canny%20Phase%202.5%20Music%20Extended.mp3",
-            backgroundImage: "url('asfnf.avif')",
+            text: "Approaching the campfire cautiously, my heart races with hope and apprehension. As I draw nearer, I find a figure illuminated by the flames. With urgency, I explain my plight, desperate for rescue. To my astonishment, the stranger is a seasoned explorer with means to navigate the treacherous waters. Grateful, I cling to newfound hope for salvation from the island's unforgiving embrace.",
+            soundEffect: "file:///C:/Users/CJ/Downloads/Mr%20incredible%20Becoming%20Canny%20Phase%202.5%20Music%20Extended.mp3",
+            backgroundImage: "url('file:///C:/Users/CJ/Downloads/asfnf.avif')",
             options: [
                 
             ]
