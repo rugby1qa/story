@@ -9,15 +9,26 @@
         body {
             background-size: cover;
             background-repeat: no-repeat;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure the page stretches to at least the height of the viewport */
+        }
+        .main-content {
+            flex: 1; /* Allow the main content to grow to fill the remaining space */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
         }
         .story-container {
             background-color: rgba(216, 237, 131, 0.805); 
             padding: 20px;
             border-radius: 10px;
-            max-width: 100%;
-             width: 100%;
+            max-width: 800px; /* Limit the width to avoid stretching too much */
+            width: 100%; /* Stretch the container from left to right */
         }
-        h1{
+        h1 {
             text-align: center;
         }
         .option-button {
@@ -29,7 +40,6 @@
         .rating-display {
             margin-top: 10px;
         }
-        
         #feedback-form {
             display: none;
             margin-top: 20px;
@@ -46,30 +56,24 @@
     </style>
 </head>
 <body>
-   
-    <div class="story-container">
-        <h1 id="story-title">The Mysterious Island</h1>
-        <br>
-        <p id="story-text">Once upon a time, you find yourself shipwrecked on a deserted island. The sun beats down relentlessly as you survey your surroundings. To your left, you see a dense jungle, and to your right, a rocky cliff overlooks the crashing waves.</p>
-        <br>
-        <div id="options-container">
-          
+    <div class="main-content">
+        <div class="story-container">
+            <h1 id="story-title">The Mysterious Island</h1>
+            <p id="story-text">Once upon a time, you find yourself shipwrecked on a deserted island. The sun beats down relentlessly as you survey your surroundings. To your left, you see a dense jungle, and to your right, a rocky cliff overlooks the crashing waves.</p>
+            <div id="options-container"></div>
         </div>
     </div>
 
-   
     <div id="feedback-form" class="story-container">
         <h2>Feedback</h2>
         <textarea id="feedback-text" placeholder="Enter your feedback here"></textarea>
         <button id="submit-feedback-btn" onclick="submitFeedback()">Submit</button>
     </div>
 
-   
     <audio id="background-music" src="background-music.mp3" loop></audio>
 
     <script src="c.js"></script>
     <script>
-        
         document.getElementById('option1').addEventListener('click', function() {
             updateStory(0); 
         });
@@ -84,3 +88,4 @@
     </script>
 </body>
 </html>
+    
