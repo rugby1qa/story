@@ -2,7 +2,7 @@ const story = {
     title: "The Mysterious Island",
     scenes: [
         {
-            text: "Amidst the vast expanse of the open sea lies a remote and enigmatic island, shrouded in mystery and teeming with untold secrets. Its rugged coastline, battered by the relentless waves, guards the entrance to a world untouched by time, where ancient forests echo with the whispers of forgotten tales and hidden treasures lie waiting to be discovered. For those bold enough to brave its perilous shores, the island offers both peril and promise, a journey into the unknown where every step brings new challenges and unforeseen wonders. As the sun sets on the horizon, casting long shadows across the sandy beaches and rocky cliffs, the stage is set for an adventure unlike any other—a journey into the heart of the Mysterious Island.",
+            text: "A remote island, cloaked in mystery, harbors ancient forests and hidden treasures amidst its rugged coastline, beckoning adventurous souls into an unparalleled journey through time and wonder. With each step onto its perilous shores, explorers confront challenges and unearth unforeseen wonders, drawn by the promise of an adventure unlike any other in the heart of the Mysterious Island.",
             soundEffect: "mixkit-arcade-retro-game-over-213.wav",
             backgroundImage: "url('ygjh.avif')",
             options: [
@@ -10,7 +10,7 @@ const story = {
             ]
         },
         {
-            text: "Stranded on a mysterious island, you're faced with a crucial decision. To your left, a dense jungle teems with unknown dangers and potential resources. To your right, a rocky cliff offers a vantage point to scan for signs of rescue. With each option comes uncertainty, and the weight of your fate hangs heavy in the air. Will you venture into the jungle, braving its mysteries, or will you remain by the cliffside, hoping for salvation? The choice is yours, and it will define your journey on this enigmatic island.",
+            text: "Stranded on a mysterious island, you're at a crossroads: delve into the dense jungle's mysteries or stay by the cliffside, hoping for rescue. Each choice carries uncertainty, shaping your fate on this enigmatic journey.",
             soundEffect: "Sneaky%20Adventure%20-%20Gaming%20Background%20Music%20(HD).mp3",
             backgroundImage: "url('deserted-island-1.jpg')",
             options: [
