@@ -22,12 +22,20 @@
             padding: 20px;
         }
         .story-container {
-            background-color: rgba(216, 237, 131, 0.805); 
-            padding: 20px;
-            border-radius: 10px;
-            max-width: 800px; /* Limit the width to avoid stretching too much */
-            width: 100%; /* Stretch the container from left to right */
-        }
+    background-color: rgba(216, 237, 131, 0.2); /* Initial opacity set to 0.2 for transparency */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Limit the width to avoid stretching too much */
+    width: 100%; /* Stretch the container from left to right */
+    transition: background-color 0.5s ease, opacity 0.5s ease; /* Add transition effect */
+    opacity: 0.2; /* Initial opacity set to 0.2 for transparency */
+}
+
+.story-container:hover {
+    background-color: rgba(216, 237, 131, 0.805); /* Change background color on hover */
+    opacity: 1; /* Increase opacity on hover */
+}
+
         h1 {
             text-align: center;
         }
